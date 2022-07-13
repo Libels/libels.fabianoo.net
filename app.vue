@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="container mx-auto sm:px-6 lg:px-8 mt-8">
-			<div class="flex justify-between items-center">
+			<div class="flex justify-between items-center px-4">
 				<Logo />
 				<Navbar />
 			</div>
