@@ -5,8 +5,21 @@
 				<Logo />
 				<Navbar />
 			</div>
-			<Hero />
-			<Showcase />
+			<NuxtPage />
 		</div>
+		<FooterSection />
 	</div>
 </template>
+
+<script setup>
+useHead({
+	titleTemplate: (titleChunk) => {
+		return titleChunk ? `${titleChunk} - LCC` : 'Libels Computer Club'
+	},
+	viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+	charset: 'utf-8',
+	meta: [
+		{ name: 'description', content: 'Libels Computer Club adalah Ekstrakulikuler di SMAN 15 Jakarta yang berisikan para individu pegiat IT yang bertalenta.' }
+	],
+})
+</script>

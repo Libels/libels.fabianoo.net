@@ -1,6 +1,6 @@
 <template>
 	<div class="flex space-x-4">
-		<NuxtLink v-for="item in items">{{ item.name }}</NuxtLink>
+		<NuxtLink v-for="item in items" :to="item.slug">{{ item.name }}</NuxtLink>
 	</div>
 </template>
 
@@ -10,13 +10,16 @@ export default {
 		return {
 			items: [
 				{
-					name: 'Home'
+					name: 'Home',
+					slug: '/'
 				},
 				{
-					name: 'Project'
+					name: 'Project',
+					slug: '/'
 				},
 				{
-					name: 'Contact'
+					name: 'Contact',
+					slug: '/'
 				},
 			]
 		}
