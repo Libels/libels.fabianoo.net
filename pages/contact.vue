@@ -87,7 +87,7 @@ const faqs = [
 		id: 1,
 		question: 'Kita latihan hari apa?',
 		answer:
-			'Senin & Selasa, merupakan jadwal yang mutlak dan sudah tidak dapat diganggu gugat tanpa alasan yang jelas.',
+			'Kamis & Jumat, merupakan jadwal yang mutlak dan sudah tidak dapat diganggu gugat tanpa alasan yang jelas.',
 	},
 	{
 		id: 2,
