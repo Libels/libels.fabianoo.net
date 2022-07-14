@@ -21,33 +21,7 @@
 			<div class="bg-white">
 				<div class="max-w-md mx-auto py-24 px-4 sm:max-w-3xl sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
 					<div class="divide-y divide-warm-gray-200">
-						<section class="lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="contact-heading">
-							<h2 id="contact-heading" class="text-2xl font-extrabold text-warm-gray-900 sm:text-3xl">
-								Contact Person</h2>
-							<div
-								class="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2">
-								<div v-for="item in contactDetails" :key="item.name">
-									<h3 class="text-lg font-medium text-warm-gray-900">
-										{{ item.name }}
-									</h3>
-									<dl class="mt-2 text-base text-warm-gray-500">
-										<div>
-											<dt class="sr-only">Email</dt>
-											<dd>
-												{{ item.email }}
-											</dd>
-										</div>
-										<div class="mt-1">
-											<dt class="sr-only">Phone number</dt>
-											<dd>
-												{{ item.telephone }}
-											</dd>
-										</div>
-									</dl>
-								</div>
-							</div>
-						</section>
-						<section class="mt-16 pt-16 lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="location-heading">
+						<section class="lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="location-heading">
 							<h2 id="location-heading" class="text-2xl font-extrabold text-warm-gray-900 sm:text-3xl">
 								Lokasi</h2>
 							<div
@@ -74,9 +48,10 @@
 					<div class="lg:grid lg:grid-cols-3 lg:gap-8">
 						<div>
 							<h2 class="text-3xl font-extrabold text-warm-gray-900">Paling sering ditanya</h2>
-							<p class="mt-4 text-lg text-warm-gray-500">Gak nemu jawaban yang pas? Coba hubungi tim <a
-									href="#contact-heading"
-									class="font-medium text-cyan-700 hover:text-cyan-600">contact person</a> kami.</p>
+							<p class="mt-4 text-lg text-warm-gray-500">Gak nemu jawaban yang pas? Coba join <a
+									href="https://discord.gg/qnPjtNWswj"
+									class="font-medium text-cyan-700 hover:text-cyan-600">discord</a>
+								kami.</p>
 						</div>
 						<div class="mt-12 lg:mt-0 lg:col-span-2">
 							<dl class="space-y-12">
